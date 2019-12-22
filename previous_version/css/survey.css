@@ -1,0 +1,91 @@
+#sFormContainer {
+    width: 100%;
+    margin: auto;
+}
+
+#sHeader {
+    width: 100%;
+    background-color: beige;
+}
+
+#sLeftPanel {
+    width: 20%;
+    background-color: wheat;
+    float: left;
+}
+
+
+
+#sWorkPanel {
+    width: 60%;
+    height: 100%;
+    /* background-color: cadetblue; */
+    float: left;
+}
+
+
+#sPropertiesPanel {
+    width: 20%;
+    height: 100%;
+    background-color: darkseagreen;
+    float: left;
+}
+
+#sFooter {
+    width: 100%;
+    background-color: darksalmon;
+}
+
+
+
+#sLeftPanel li,
+ul {
+    list-style: none;
+}
+
+.scLeftButtons {
+    border-top: 1px solid #4a5361;
+    background: #545f6f;
+    transition-property: all;
+    transition-duration: .3s;
+    transition-timing-function: ease-in-out;
+    font-size: 15px;
+    color: white;
+    line-height: 18px;
+    padding: 18px 18px 18px 70px;
+}
+
+.survey-question-area {
+    border: 1px dotted brown;
+    margin-top: 5px;
+}
+
+.survey-question{
+    border-style: none; 
+    border-color: Transparent; 
+    overflow: auto;  
+}
+
+.survey-div-checkboxes-all {
+    border: 1px solid black;
+}
+
+.survey-handler {
+    background-color: khaki;
+    border-bottom: 1px solid honeydew;
+}
+
+.survey-btn-qst-remove {
+    float: right;
+}
+
+ .survey-question {
+    width: 500px;
+} 
+
+
+#shTabs {
+    overflow: auto;
+    width: 100%
+   }
+

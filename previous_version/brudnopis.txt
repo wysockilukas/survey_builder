@@ -1,0 +1,34 @@
+
+
+Jedna odpowiedz
+radio
+suwak
+
+
+Wiele odpowiedzi
+check
+
+
+Otwarte
+textarea
+
+
+textfield
+
+Data - kalendarz
+
+
+https://www.jotform.com/build/90135414689360
+
+BBC_FA_ALM
+
+
+CSS 
+standar nazewnictwa
+
+.red-box
+.stick-man--blue 
+.stick-man__feet 
+.stick-man__head--small
+
+class="site-navigation js-site-navigation

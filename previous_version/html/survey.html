@@ -1,0 +1,132 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+
+<head>
+  <title>test</title>
+  <link rel="stylesheet" href="../css/jquery-ui.css" />
+  <link rel="stylesheet" href="../css/survey.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" />
+  <script src="../js/jquery.js"></script>
+  <script src="../js/jquery-ui.js"></script>
+  <style type="text/css">
+
+  </style>
+</head>
+
+
+
+<html>
+
+<body>
+
+
+  <div class="_container">
+    <div id="sHeader">H</div>
+    <div id="sLeftPanel">
+      <ul>
+        <li>
+          <div id="js-survey-btn-textarea-add" class="scLeftButtons">Text area</div>
+        </li>
+        <li>
+          <div id="js-survey-btn-radio-add" class="scLeftButtons">Jeden wybór</div>
+        </li>
+        <li>
+          <div id="js-survey-btn-checkbox-add" class="scLeftButtons">Check box</div>
+        </li>
+      </ul>
+    </div>
+    <div id="sWorkPanel">
+
+
+      <div id="shTabs">
+        <ul>
+          <li><a href="#survey-edit-panel">Edycja</a></li>
+          <li><a href="#survey-preview-panel" >Podgląd</a></li>
+        </ul>
+        <div id="survey-edit-panel">
+          <div id="sForm">
+            <div class="survey-header js-survey-header" contenteditable="true">Wprowadź opis..</div>
+            <ul id="sAddedElements" class="_row ">
+              <!-- <li></li> -->
+            </ul>
+          </div>
+        </div>
+        <div id="survey-preview-panel">
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+    </div>
+    <div id="sPropertiesPanel">P</div>
+    <div style="clear:both;"></div>
+    <div id="sFooter">
+
+
+
+
+
+    </div>
+  </div>
+
+  <div style="display: none;">
+    <ol>
+      <li id="js-li-textareaes" class="survey-question-area js-survey-question ">
+        <div class="survey-handler">Zlap za to<button class="survey-btn-qst-remove js-btn-qst-remove">x</button></div>
+        <LABEL FOR="TA1"> 1 </LABEL>
+        <textarea rows="4" cols="100" class="survey-question " placeholder="Wprowadź pytanie" name="TA1"></textarea>
+        <div class="js-div-textarea">
+          <input type="textarea" name="textarea1" value="">
+        </div>
+      </li>
+
+      <li id="js-li-checkboxes" class="survey-question-area js-survey-question ">
+        <div class="survey-handler">Zlap za to<button class="survey-btn-qst-remove js-btn-qst-remove">x</button></div>
+        <LABEL FOR="TA1">1</LABEL>
+        <textarea rows="4" cols="100" class="survey-question " placeholder="Wprowadź pytanie" name="TA1"></textarea>
+        <div class="survey-div-checkboxes-all js-div-checkboxes-all">
+          <div class="js-div-checkbox">
+            <input type="checkbox" name="checkbox1" value="">
+            <input type="text" class="survey-answer " value="odpowiedż 1">
+            <input type="button" class="survey-option-add js-option-add" value="+">
+            <input type="button" class="survey-option-remove js-option-remove" value="-">
+          </div>
+        </div>
+      </li>
+
+      <li id="js-li-radioes" class="survey-question-area js-survey-question ">
+        <div class="survey-handler">Zlap za to<button class="survey-btn-qst-remove js-btn-qst-remove">x</button></div>
+        <LABEL FOR="TA1">1</LABEL>
+        <textarea rows="4" cols="100" class="survey-question " placeholder="Wprowadź pytanie" name="TA1"></textarea>
+        <div class="survey-div-radioes-all js-div-radioes-all">
+          <div class="js-div-radio">
+            <input type="radio" name="radio1" value="">
+            <input type="text" class="survey-answer " value="odpowiedż 1">
+            <input type="button" class="survey-option-add js-option-add" value="+">
+            <input type="button" class="survey-option-remove js-option-remove" value="-">
+          </div>
+        </div>
+      </li>
+    </ol>
+
+  </div>
+
+
+
+
+
+
+</body>
+<script type="text/javascript" src="../js/surveys.js"></script>
+<script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+
+
+</html>
