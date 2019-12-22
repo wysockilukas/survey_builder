@@ -1,1 +1,1 @@
-'''Pierwsz wpis
+# Pierwsz wpis
